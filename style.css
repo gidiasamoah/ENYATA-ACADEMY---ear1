@@ -52,33 +52,114 @@ nav{
     width: 79px;
     height: 23px;
     top: 61px;
-    left: 808px;
+    left: 700pxpx;
   }
   
   .nav-right .nav-list li:nth-child(3) {
     width: 141px;
     height: 23px;
     top: 61px;
-    left: 939px;
+    left: 700px;
   }
 
   .nav-right .nav-list li:nth-child(4) {
     width: 83px;
     height: 23px;
     top: 61px;
-    left: 1132px;
+    left: 700px;
   }
   
   .nav-right .nav-list li:nth-child(5) {
     width: 53x;
     height: 23px;
     top: 61px;
-    left: 1267px;
+    left: 700px;
+    margin-right: 119px;
 
   }
 
-  .text-one{
-   size: 130px;
-   text-align: center;
-   line-height: 122px;
+  
+
+  h1.Text-One {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 100px;
+    background-color: #029F58;
+    color: #ffffff;
+   
+}
+
+  h1.Text-One {
+    width: 100%;
+    height: 369px;
+    top: 220px;
+    left: 120px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 110px;
+    font-weight: 500;
+    line-height: 100px;
+    letter-spacing: -0.06em;
+    
+  }
+
+  .Text-Two {
+    background-color: #029F58;
+    color: #ffffff;
+    font-family: 'dm sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .buttons {
+    text-align: center;
+    background-color: #029F58;
+    padding-top: 80px;
+  }
+  
+  .buttons ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .buttons li {
+    margin: 0 10px;
+  }
+  
+  .buttons li img {
+    width: 150px;
+  }
+
+  .Black-Malette {
+    text-align: center;
+  }
+  
+  .Black-Malette ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Black-Malette li {
+    position: relative;
+    margin: 0 10px;
+  }
+  
+  .Black-Malette li:nth-child(1) img,
+  .Black-Malette li:nth-child(3) img {
+    position: absolute;
+    z-index: -1;
+    width: 250px; /* Adjust the width as per your preference */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .Black-Malette li img {
+    width: 300px; /* Adjust the width as per your preference */
   }
