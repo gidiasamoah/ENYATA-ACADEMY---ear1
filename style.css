@@ -95,9 +95,9 @@ nav{
     top: 220px;
     left: 120px;
     font-family: "DM Sans", sans-serif;
-    font-size: 110px;
+    font-size: 130px;
     font-weight: 500;
-    line-height: 100px;
+    line-height: 123px;
     letter-spacing: -0.06em;
     
   }
@@ -106,17 +106,18 @@ nav{
     background-color: #029F58;
     color: #ffffff;
     font-family: 'dm sans', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
+    padding: 20px 0px 0px 0px;
   }
 
   .buttons {
     text-align: center;
     background-color: #029F58;
-    padding-top: 80px;
+    padding-top: 30px;
   }
   
   .buttons ul {
@@ -132,6 +133,7 @@ nav{
   
   .buttons li img {
     width: 150px;
+    height: 50px;
   }
 
   .Black-Matte {
@@ -151,7 +153,7 @@ nav{
   }
   
   .Black-Matte img {
-    width: 150px; /* Adjust the width as per your preference */
+    width: 150px; 
   }
   
   .back-img::before,
@@ -166,9 +168,39 @@ nav{
   }
   
   .back-img::before {
-    left: -20px; /* Adjust the value to position the image */
+    left: -20px; 
   }
   
   .back-img::after {
-    right: -20px; /* Adjust the value to position the image */
+    right: -20px; 
+  }
+  .About-section h3{
+    height: 146px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 50px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    padding: 143px 0px 0px 122px;
+    background:  #FAFAFA;
+    ;
+  }
+
+  .About-section h1{
+    background: #FAFAFA;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: justify;
+    display: flex;
+  justify-content: space-between;
+    padding: 20px 0px 0px 122px
+  }
+
+  .Fans-one {
+    background: #FAFAFA;
+    padding: 143px 0px 0px 122px;
   }
